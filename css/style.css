@@ -27,7 +27,6 @@ header{
 .menu li{
     display: inline-block;
     list-style: none;
-    line-height: 36px;
 }
 
 .menu a{
@@ -40,7 +39,8 @@ header{
     text-decoration: none;
 }
 
-.menu li a:hover{
+.menu li a:hover,
+.user_login a:hover{
     background: #4eabda;
     color: #fff;
 }
@@ -62,6 +62,7 @@ header{
 .user_login a{
     color: #fff;
     text-decoration: none;
+   padding: 9px 3px;
 }
 
 .flag{
